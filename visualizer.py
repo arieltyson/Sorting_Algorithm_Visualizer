@@ -41,6 +41,10 @@ def generate_starting_list(n, min_val, max_val):
 
     return lst
 
+def draw(draw_info):
+    draw_info.window.fill(draw_info.BACKGROUND_COLOR)
+    pygame.display.update()
+
 def main():
     run = True
     clock = pygame.time.Clock()
@@ -55,10 +59,10 @@ def main():
     while run:
         clock.tick(60)
 
-        pygame.display.update()
+        draw(draw_info)
 
         for event in pygame.event.get():
-            if event == pygame.QUIT:
+            if event.type == pygame.QUIT:
                 run = False
 
     pygame.quit()
