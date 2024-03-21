@@ -4,6 +4,9 @@ A Python application built with Pygame, demonstrating varying Sorting Algorithms
 
 # The Python Solution to Visualizing Sorting Algorithms 💻
 
+![Python Sorting Algorithm Visualizer Screenshot](https://github.com/arieltyson/Sorting_Algorithm_Visualizer/blob/main/Python_Sorting_Visualizer_Upload.png)
+
+
 ## Project Description 🗺️
 
 This project demonstrates Bubble Sort and Insertion Sort algorithms through the use of Python and Pygame. An intuitive way to visualize and understand the mechanics of these sorting algorithms!
